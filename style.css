@@ -1,0 +1,39 @@
+.gradient-background {
+    background: linear-gradient(300deg, #e5ff00, #ff0000c6, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+
+  
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: oblique;
+    font-weight: bold;
+    
+}
+.plecare {
+    color: black;
+    
+}
+.mancare {
+    color: black;
+}
+.sala {
+    color: black;
+}
+
+body {
+    overflow-x: hidden
+    }
